@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1{
+    color: gray;
+    font-size : 3rem;
+    border : 0.2px solid grey;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color:antiquewhite
+
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap:1rem;
+    align-items: flex-start;
+
+}
+
+main div{
+    border: 0.1rem dashed grey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+
+}
+
+h2{
+    text-align-center;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
